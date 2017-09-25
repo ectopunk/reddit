@@ -21,7 +21,7 @@ marvin_quotes = \
 
 reddit = praw.Reddit('bot1')
 
-subreddit = reddit.subreddit("pythonforengineers")
+subreddit = reddit.subreddit("test")
 
 for comment in subreddit.stream.comments():
     print(comment.body)
