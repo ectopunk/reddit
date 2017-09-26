@@ -19,7 +19,7 @@ marvin_quotes = \
 
 ]
 
-reddit = praw.Reddit('ectopunk')
+reddit = praw.Reddit('bot1')
 
 subreddit = reddit.subreddit("test")
 
